@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+    background: linear-gradient(#A8201A, #FFD639);
+    color: #ffffff;
+    font-size: 50px;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 2px black;
+}
+
+#hogs-img {
+    width: 300px;
+    border-radius: 50%;
+    border: 6px solid #FFD639;
+    margin-bottom: 10px;
+}
+
+#lvl {
+    background: #FFD639;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#enemies-killed {
+    margin: 0;
+    background: #FFD639;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.counter {
+    width: 90px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 600px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/d20.webp");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+    height: 600px;
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+    height: 600px;
+}
+
+#gift-img-rush:hover {
+    background-image: url("images/rush.webp");
+    height: 600px;
+}
+
+#gift-img-deaths:hover {
+    background-image: url("images/deaths.webp");
+    height: 600px;
+}
+
+#gift-img-furkey:hover {
+    background-image: url("images/furkey.webp");
+    height: 600px;
+}
+
+#gift-img-pepper:hover {
+    background-image: url("images/pepper.webp");
+    width: 200px;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
